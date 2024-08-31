@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7E990912C83B9C400C6CA3A /* MeetMapKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E990902C83B9C400C6CA3A /* MeetMapKitApp.swift */; };
+		A7E990932C83B9C400C6CA3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E990922C83B9C400C6CA3A /* ContentView.swift */; };
+		A7E990952C83B9C400C6CA3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7E990942C83B9C400C6CA3A /* Assets.xcassets */; };
+		A7E990982C83B9C400C6CA3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7E990972C83B9C400C6CA3A /* Preview Assets.xcassets */; };
+		A7E990A22C83B9C500C6CA3A /* MeetMapKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E990A12C83B9C500C6CA3A /* MeetMapKitTests.swift */; };
+		A7E990AC2C83B9C500C6CA3A /* MeetMapKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E990AB2C83B9C500C6CA3A /* MeetMapKitUITests.swift */; };
+		A7E990AE2C83B9C500C6CA3A /* MeetMapKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E990AD2C83B9C500C6CA3A /* MeetMapKitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7E9909E2C83B9C500C6CA3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7E990852C83B9C400C6CA3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7E9908C2C83B9C400C6CA3A;
+			remoteInfo = MeetMapKit;
+		};
+		A7E990A82C83B9C500C6CA3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7E990852C83B9C400C6CA3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7E9908C2C83B9C400C6CA3A;
+			remoteInfo = MeetMapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7E9908D2C83B9C400C6CA3A /* MeetMapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetMapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E990902C83B9C400C6CA3A /* MeetMapKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetMapKitApp.swift; sourceTree = "<group>"; };
+		A7E990922C83B9C400C6CA3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A7E990942C83B9C400C6CA3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7E990972C83B9C400C6CA3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7E9909D2C83B9C500C6CA3A /* MeetMapKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetMapKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E990A12C83B9C500C6CA3A /* MeetMapKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetMapKitTests.swift; sourceTree = "<group>"; };
+		A7E990A72C83B9C500C6CA3A /* MeetMapKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetMapKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E990AB2C83B9C500C6CA3A /* MeetMapKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetMapKitUITests.swift; sourceTree = "<group>"; };
+		A7E990AD2C83B9C500C6CA3A /* MeetMapKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetMapKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7E9908A2C83B9C400C6CA3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E9909A2C83B9C500C6CA3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E990A42C83B9C500C6CA3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7E990842C83B9C400C6CA3A = {
+			isa = PBXGroup;
+			children = (
+				A7E9908F2C83B9C400C6CA3A /* MeetMapKit */,
+				A7E990A02C83B9C500C6CA3A /* MeetMapKitTests */,
+				A7E990AA2C83B9C500C6CA3A /* MeetMapKitUITests */,
+				A7E9908E2C83B9C400C6CA3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7E9908E2C83B9C400C6CA3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7E9908D2C83B9C400C6CA3A /* MeetMapKit.app */,
+				A7E9909D2C83B9C500C6CA3A /* MeetMapKitTests.xctest */,
+				A7E990A72C83B9C500C6CA3A /* MeetMapKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7E9908F2C83B9C400C6CA3A /* MeetMapKit */ = {
+			isa = PBXGroup;
+			children = (
+				A7E990902C83B9C400C6CA3A /* MeetMapKitApp.swift */,
+				A7E990922C83B9C400C6CA3A /* ContentView.swift */,
+				A7E990942C83B9C400C6CA3A /* Assets.xcassets */,
+				A7E990962C83B9C400C6CA3A /* Preview Content */,
+			);
+			path = MeetMapKit;
+			sourceTree = "<group>";
+		};
+		A7E990962C83B9C400C6CA3A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A7E990972C83B9C400C6CA3A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A7E990A02C83B9C500C6CA3A /* MeetMapKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7E990A12C83B9C500C6CA3A /* MeetMapKitTests.swift */,
+			);
+			path = MeetMapKitTests;
+			sourceTree = "<group>";
+		};
+		A7E990AA2C83B9C500C6CA3A /* MeetMapKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7E990AB2C83B9C500C6CA3A /* MeetMapKitUITests.swift */,
+				A7E990AD2C83B9C500C6CA3A /* MeetMapKitUITestsLaunchTests.swift */,
+			);
+			path = MeetMapKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7E9908C2C83B9C400C6CA3A /* MeetMapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7E990B12C83B9C500C6CA3A /* Build configuration list for PBXNativeTarget "MeetMapKit" */;
+			buildPhases = (
+				A7E990892C83B9C400C6CA3A /* Sources */,
+				A7E9908A2C83B9C400C6CA3A /* Frameworks */,
+				A7E9908B2C83B9C400C6CA3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetMapKit;
+			productName = MeetMapKit;
+			productReference = A7E9908D2C83B9C400C6CA3A /* MeetMapKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7E9909C2C83B9C500C6CA3A /* MeetMapKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7E990B42C83B9C500C6CA3A /* Build configuration list for PBXNativeTarget "MeetMapKitTests" */;
+			buildPhases = (
+				A7E990992C83B9C500C6CA3A /* Sources */,
+				A7E9909A2C83B9C500C6CA3A /* Frameworks */,
+				A7E9909B2C83B9C500C6CA3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7E9909F2C83B9C500C6CA3A /* PBXTargetDependency */,
+			);
+			name = MeetMapKitTests;
+			productName = MeetMapKitTests;
+			productReference = A7E9909D2C83B9C500C6CA3A /* MeetMapKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7E990A62C83B9C500C6CA3A /* MeetMapKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7E990B72C83B9C500C6CA3A /* Build configuration list for PBXNativeTarget "MeetMapKitUITests" */;
+			buildPhases = (
+				A7E990A32C83B9C500C6CA3A /* Sources */,
+				A7E990A42C83B9C500C6CA3A /* Frameworks */,
+				A7E990A52C83B9C500C6CA3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7E990A92C83B9C500C6CA3A /* PBXTargetDependency */,
+			);
+			name = MeetMapKitUITests;
+			productName = MeetMapKitUITests;
+			productReference = A7E990A72C83B9C500C6CA3A /* MeetMapKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7E990852C83B9C400C6CA3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A7E9908C2C83B9C400C6CA3A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A7E9909C2C83B9C500C6CA3A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A7E9908C2C83B9C400C6CA3A;
+					};
+					A7E990A62C83B9C500C6CA3A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A7E9908C2C83B9C400C6CA3A;
+					};
+				};
+			};
+			buildConfigurationList = A7E990882C83B9C400C6CA3A /* Build configuration list for PBXProject "MeetMapKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7E990842C83B9C400C6CA3A;
+			productRefGroup = A7E9908E2C83B9C400C6CA3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7E9908C2C83B9C400C6CA3A /* MeetMapKit */,
+				A7E9909C2C83B9C500C6CA3A /* MeetMapKitTests */,
+				A7E990A62C83B9C500C6CA3A /* MeetMapKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7E9908B2C83B9C400C6CA3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E990982C83B9C400C6CA3A /* Preview Assets.xcassets in Resources */,
+				A7E990952C83B9C400C6CA3A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E9909B2C83B9C500C6CA3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E990A52C83B9C500C6CA3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7E990892C83B9C400C6CA3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E990932C83B9C400C6CA3A /* ContentView.swift in Sources */,
+				A7E990912C83B9C400C6CA3A /* MeetMapKitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E990992C83B9C500C6CA3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E990A22C83B9C500C6CA3A /* MeetMapKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E990A32C83B9C500C6CA3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E990AC2C83B9C500C6CA3A /* MeetMapKitUITests.swift in Sources */,
+				A7E990AE2C83B9C500C6CA3A /* MeetMapKitUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7E9909F2C83B9C500C6CA3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7E9908C2C83B9C400C6CA3A /* MeetMapKit */;
+			targetProxy = A7E9909E2C83B9C500C6CA3A /* PBXContainerItemProxy */;
+		};
+		A7E990A92C83B9C500C6CA3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7E9908C2C83B9C400C6CA3A /* MeetMapKit */;
+			targetProxy = A7E990A82C83B9C500C6CA3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A7E990AF2C83B9C500C6CA3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7E990B02C83B9C500C6CA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7E990B22C83B9C500C6CA3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeetMapKit/Preview Content\"";
+				DEVELOPMENT_TEAM = 9V4UX268F6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = k1nghandy.MeetMapKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7E990B32C83B9C500C6CA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeetMapKit/Preview Content\"";
+				DEVELOPMENT_TEAM = 9V4UX268F6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = k1nghandy.MeetMapKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A7E990B52C83B9C500C6CA3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9V4UX268F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = k1nghandy.MeetMapKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetMapKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeetMapKit";
+			};
+			name = Debug;
+		};
+		A7E990B62C83B9C500C6CA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9V4UX268F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = k1nghandy.MeetMapKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetMapKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeetMapKit";
+			};
+			name = Release;
+		};
+		A7E990B82C83B9C500C6CA3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9V4UX268F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = k1nghandy.MeetMapKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeetMapKit;
+			};
+			name = Debug;
+		};
+		A7E990B92C83B9C500C6CA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9V4UX268F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = k1nghandy.MeetMapKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeetMapKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7E990882C83B9C400C6CA3A /* Build configuration list for PBXProject "MeetMapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E990AF2C83B9C500C6CA3A /* Debug */,
+				A7E990B02C83B9C500C6CA3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7E990B12C83B9C500C6CA3A /* Build configuration list for PBXNativeTarget "MeetMapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E990B22C83B9C500C6CA3A /* Debug */,
+				A7E990B32C83B9C500C6CA3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7E990B42C83B9C500C6CA3A /* Build configuration list for PBXNativeTarget "MeetMapKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E990B52C83B9C500C6CA3A /* Debug */,
+				A7E990B62C83B9C500C6CA3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7E990B72C83B9C500C6CA3A /* Build configuration list for PBXNativeTarget "MeetMapKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E990B82C83B9C500C6CA3A /* Debug */,
+				A7E990B92C83B9C500C6CA3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7E990852C83B9C400C6CA3A /* Project object */;
+}
