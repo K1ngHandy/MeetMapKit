@@ -34,6 +34,7 @@ extension MKCoordinateRegion {
 
 struct ContentView: View {
     @State private var position: MapCameraPosition = .automatic
+    @State private var visibleRegion: MKCoordinateRegion?
     @State private var searchResults: [MKMapItem] = []
     
     var body: some View {
@@ -58,7 +59,7 @@ struct ContentView: View {
         .safeAreaInset(edge: .bottom) {
             HStack {
                 Spacer()
-                BeantownButtons(position: $position, searchResults: $searchResults)
+                BeantownButtons(position: $position, searchResults: $searchResults, visibleRegion: visibleRegion)
                     .padding(.top)
                 Spacer()
             }
@@ -66,6 +67,9 @@ struct ContentView: View {
         }
         .onChange(of: searchResults) {
             position = .automatic
+        }
+        .onMapCameraChange { context in
+            visibleRegion = context.region
         }
     }
 }

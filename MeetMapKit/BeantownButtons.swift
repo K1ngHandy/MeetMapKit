@@ -12,6 +12,8 @@ struct BeantownButtons: View {
     @Binding var position: MapCameraPosition
     @Binding var searchResults: [MKMapItem]
     
+    var visibleRegion: MKCoordinateRegion?
+    
     var body: some View {
         HStack {
             Button {
@@ -49,7 +51,7 @@ struct BeantownButtons: View {
         let request = MKLocalSearch.Request()
         request.naturalLanguageQuery = query
         request.resultTypes = .pointOfInterest
-        request.region = MKCoordinateRegion(
+        request.region = visibleRegion ?? MKCoordinateRegion(
             center: .parking,
             span: MKCoordinateSpan(latitudeDelta: 0.0125, longitudeDelta: 0.0125))
         
