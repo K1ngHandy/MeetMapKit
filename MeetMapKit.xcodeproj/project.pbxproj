@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A75A00962C84106F0066EEB0 /* BeantownButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75A00952C84106F0066EEB0 /* BeantownButtons.swift */; };
+		A75A00982C84E0B70066EEB0 /* ItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75A00972C84E0B70066EEB0 /* ItemInfoView.swift */; };
 		A7E990912C83B9C400C6CA3A /* MeetMapKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E990902C83B9C400C6CA3A /* MeetMapKitApp.swift */; };
 		A7E990932C83B9C400C6CA3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E990922C83B9C400C6CA3A /* ContentView.swift */; };
 		A7E990952C83B9C400C6CA3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7E990942C83B9C400C6CA3A /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		A75A00952C84106F0066EEB0 /* BeantownButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeantownButtons.swift; sourceTree = "<group>"; };
+		A75A00972C84E0B70066EEB0 /* ItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoView.swift; sourceTree = "<group>"; };
 		A7E9908D2C83B9C400C6CA3A /* MeetMapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetMapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E990902C83B9C400C6CA3A /* MeetMapKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetMapKitApp.swift; sourceTree = "<group>"; };
 		A7E990922C83B9C400C6CA3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				A7E990942C83B9C400C6CA3A /* Assets.xcassets */,
 				A7E990962C83B9C400C6CA3A /* Preview Content */,
 				A75A00952C84106F0066EEB0 /* BeantownButtons.swift */,
+				A75A00972C84E0B70066EEB0 /* ItemInfoView.swift */,
 			);
 			path = MeetMapKit;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				A75A00962C84106F0066EEB0 /* BeantownButtons.swift in Sources */,
 				A7E990932C83B9C400C6CA3A /* ContentView.swift in Sources */,
 				A7E990912C83B9C400C6CA3A /* MeetMapKitApp.swift in Sources */,
+				A75A00982C84E0B70066EEB0 /* ItemInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
