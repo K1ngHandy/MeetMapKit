@@ -5,11 +5,45 @@
 //  Created by Steve Handy on 2024.08.31.
 //
 
-//import Foundation
 import SwiftUI
+import MapKit
 
-var body: some View {
+struct BeantownButtons: View {
+    @Binding var position: MapCameraPosition
     @Binding var searchResults: [MKMapItem]
+    
+    var body: some View {
+        HStack {
+            Button {
+                search(for: "playground")
+            } label: {
+                Label("Playgrounds", systemImage: "figure.and.child.holdinghands")
+            }
+            .buttonStyle(.borderedProminent)
+            
+            Button {
+                search(for: "beach")
+            } label: {
+                Label("Beaches", systemImage: "beach.umbrella")
+            }
+            .buttonStyle(.borderedProminent)
+            
+            Button {
+                position = .region(.boston)
+            } label: {
+                Label("Boston", systemImage: "building.2")
+            }
+            .buttonStyle(.bordered)
+            
+            Button {
+                position = .region(.northShore)
+            } label: {
+                Label("North Shore", systemImage: "water.waves")
+            }
+            .buttonStyle(.bordered)
+        }
+        .labelStyle(.iconOnly)
+    }
     
     func search(for query: String) {
         let request = MKLocalSearch.Request()
@@ -25,21 +59,4 @@ var body: some View {
             searchResults = response?.mapItems ?? []
         }
     }
-    
-    HStack {
-        Button {
-            search(for: "playground")
-        } label: {
-            Label("Playgrounds", systemImage: "figure.and.child.holdinghands")
-        }
-        .buttonStyle(.borderedProminent)
-        
-        Button {
-            search(for: "beach")
-        } label: {
-            Label("Beaches", systemImage: "beach.umbrella")
-        }
-        .buttonStyle(.borderedProminent)
-    }
-    .labelStyle(.iconOnly)
 }
